@@ -1,0 +1,80 @@
+ * {
+      box-sizing: border-box;
+    }
+
+    h1
+    {
+      
+      text-align:center;
+      font-family:"Lucida Sans Unicode";
+      margin-bottom: 20px;
+
+
+
+    }
+    .sec1{
+      font-family: Comic Sans MS;
+      width:30%;
+      
+      position:absolute;
+      top: 0px;
+      right: 0px;
+      border:solid  black 1px;
+      background-color: red;
+      
+      font-size: 18px;
+      font-weight: bold;
+      text-align:center;
+      
+
+
+    }
+    .sec2
+    {
+      font-family: Comic Sans MS;
+      
+      width: 90%;
+      
+      margin-top:10px;
+      margin-bottom: 10px;
+      margin-right:auto;
+      margin-left:auto;
+       padding: 25px;
+      
+      border:solid  black 1px;
+     
+      
+      background-color: gray;
+      position:relative;
+
+    }
+    
+    @media(min-width:992px)
+    {
+      .lg1,.lg2,.lg3
+      {
+        width:33.33%;
+        float:left;
+      }
+    }
+      @media(min-width:768px) and (max-width:991px)
+    {
+      .lg1,.lg2,.lg3
+      {
+        width:50%;
+        float:left;
+      }
+      .lg3{
+        width:100%;
+        float:left;
+      }
+      .sec12{
+        width:95%;
+
+      }
+
+
+    }
+    .row{
+      width:100%;
+    }
